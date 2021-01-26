@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "868702083533",
+    "project_id": "leap-redfeather-0001",
+    "storage_bucket": "leap-redfeather-0001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868702083533:android:05a639cfe25361ea3a0c84",
+        "android_client_info": {
+          "package_name": "com.redfeather.leap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868702083533-2v0i8o11bd9gmhql5mglcp0frgjgp9uo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.redfeather.leap",
+            "certificate_hash": "d76837ab3dc49ef38ea7ae2ac0b6ef684c174a46"
+          }
+        },
+        {
+          "client_id": "868702083533-vpstu0615nmpl81o7sddhpg6mpkq7pen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeh6X3E2zdp1t3X_ZIdhO17ZEZrawVV4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868702083533-vpstu0615nmpl81o7sddhpg6mpkq7pen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
