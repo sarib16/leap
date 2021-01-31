@@ -8,6 +8,10 @@ import 'package:leap/screens/profile_screen.dart';
 import 'package:leap/screens/search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
+  final String userId;
+
+  HomeScreen({this.userId});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
@@ -32,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Text(
             'LEAP',
             style: TextStyle(
-              color: color.text,
+              color: Colors.white,
               fontSize: 30,
               fontFamily: 'Evolve',
             ),
@@ -46,7 +50,9 @@ class _HomeScreenState extends State<HomeScreen> {
           SearchScreen(),
           CreatePostScreen(),
           ActivityScreen(),
-          ProfileScreen(),
+          ProfileScreen(
+            userId: widget.userId,
+          ),
         ],
         onPageChanged: (int index) {
           setState(() {

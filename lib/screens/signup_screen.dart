@@ -24,6 +24,7 @@ class _SignupScreenState extends State<SignupScreen> {
 
   @override
   void initState() {
+    super.initState();
     _passwordVisible = false;
   }
 

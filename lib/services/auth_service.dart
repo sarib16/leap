@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:leap/screens/feed_screen.dart';
 
 class AuthService {
   static final _auth = FirebaseAuth.instance;
@@ -21,7 +20,7 @@ class AuthService {
           'email': email,
           'profileImageUrl': '',
         });
-        Navigator.pushReplacementNamed(context, FeedScreen.id);
+        Navigator.pop(context);
       }
     } catch (e) {
       print(e);
