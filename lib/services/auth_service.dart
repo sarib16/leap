@@ -1,8 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:leap/screens/home_screen.dart';
-import 'package:leap/screens/login_screen.dart';
+import 'package:leap/screens/feed_screen.dart';
 
 class AuthService {
   static final _auth = FirebaseAuth.instance;
@@ -22,16 +21,16 @@ class AuthService {
           'email': email,
           'profileImageUrl': '',
         });
-        Navigator.pushReplacementNamed(context, HomeScreen.id);
+        Navigator.pushReplacementNamed(context, FeedScreen.id);
       }
     } catch (e) {
       print(e);
     }
   }
 
-  static void logout(BuildContext context) {
+  static void logout() {
     _auth.signOut();
-    Navigator.pushReplacementNamed(context, LoginScreen.id);
+    // Navigator.pushReplacementNamed(context, LoginScreen.id);
   }
 
   static void login(String email, String password) async {

@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:leap/screens/feed_screen.dart';
 import 'package:leap/screens/home_screen.dart';
 import 'package:leap/screens/login_screen.dart';
 import 'package:leap/screens/signup_screen.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
       routes: {
         LoginScreen.id: (context) => LoginScreen(),
         SignupScreen.id: (context) => SignupScreen(),
-        HomeScreen.id: (context) => HomeScreen(),
+        FeedScreen.id: (context) => FeedScreen(),
       },
     );
   }

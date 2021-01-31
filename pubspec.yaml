@@ -68,6 +68,28 @@ flutter:
     - family: Aquatico
       fonts:
         - asset: assets/fonts/Aquatico-Regular.otf
+
+    - family: Amax
+      fonts:
+        - asset: assets/fonts/Amax-Regular.ttf
+
+    - family: Belinda
+      fonts:
+        - asset: assets/fonts/Belinda-Regular.otf
+
+    - family: Moon
+      fonts:
+        - asset: assets/fonts/Moon-Regular.otf
+        - asset: assets/fonts/Moon-Bold.otf
+        - asset: assets/fonts/Moon-Light.otf
+
+    - family: Evolve
+      fonts:
+        - asset: assets/fonts/Evolve-Regular.otf
+        - asset: assets/fonts/Evolve-Bold.otf
+        - asset: assets/fonts/Evolve-Light.otf
+        - asset: assets/fonts/Evolve-Medium.otf
+        - asset: assets/fonts/Evolve-Thin.otf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
